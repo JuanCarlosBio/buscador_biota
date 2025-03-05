@@ -1,0 +1,16 @@
+name: buscador_biota
+
+channels:
+  - conda-forge
+  - anaconda
+  - bioconda
+  - r
+  - defaults
+
+dependencies:
+  - python=3.13.2
+  - pip=25.0.1
+  - r-base=4.4.2
+  - r-essentials=4.4
+  - r-tidyverse=2.0.0
+  - r-shiny=1.10.0
